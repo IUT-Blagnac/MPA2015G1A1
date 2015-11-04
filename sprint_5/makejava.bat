@@ -41,3 +41,4 @@ call runtest.bat
 cd bin
 jar cfm ../OPTIweb.jar Manifest.txt model controller lib opti
 cd ..
+java -jar OPTIweb.jar -nogui
