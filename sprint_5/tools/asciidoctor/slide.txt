@@ -1,0 +1,53 @@
+= Sprint_1
+Sprint_1
+:backend: deckjs
+:deckjs_theme: Swiss
+:scrollable:
+:navigation:
+
+include::common_doc.txt[]
+
+== How to launch the application
+
+Into the sprint folder, launch the make file. Then, launch the program named 'GestionnairePTUT.jar'.
+
+== Features at the end of sprint 1bis
+
+[NOTE]
+====
+See the link:docTechnique.html[technical documentation] for more information.
+====
+
+=== Test programs
+
+Implemented a test program which tests all of the methods of the CSV class.
+
+=== Graphical interface
+
+The application is launched on the 'Subjects' tab.
+
+image::ihm1.png[width="70%"]
+
+The 'Subjects' tab contains a list of the subjects which you can scroll through.
+To perform an action on a subject, just click on it and a new window will open.
+
+image::ihm2.png[width="70%"]
+
+In this window you can modify the title and the description of the subject.
+To save the changes you have to press the 'Validate' button, then 'Yes'.
+The 'Cancel' button will discard the changes and close the details window.
+The 'Delete' button will delete the subject and close the window.
+The title bar contains the ID number of the subject.
+
+image::ihm4.png[width="70%"]
+
+In this window you can create a new subject with his name and his title.
+If you click on "Validate" and all of the fields are filled, your subject will be created and added to the list. 
+If one of the fields is empty, an error message will be displayed.
+The 'Cancel' button will discard the changes and close the details window.
+
+image::ihm3.png[width="70%"]
+
+The 'About' tab contains details about the team and the project.
+
+The 'Quit' button close the application.
